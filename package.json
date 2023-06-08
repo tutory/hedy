@@ -1,0 +1,33 @@
+{
+  "name": "hedy",
+  "version": "1.0.0",
+  "description": "ORM",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --exit **/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tutory/hedy.git"
+  },
+  "keywords": [
+    "ORM"
+  ],
+  "author": "Stephan Hoyer <stephan.hoyer@tutory.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tutory/hedy/issues"
+  },
+  "homepage": "https://github.com/tutory/hedy#readme",
+  "devDependencies": {
+    "mocha": "10.2.0"
+  },
+  "dependencies": {
+    "debug": "4.3.4",
+    "expect.js": "0.3.1",
+    "lodash": "4.17.21",
+    "patchinko": "4.2.0",
+    "pluralize": "8.0.0",
+    "sql-formatter": "12.2.1"
+  }
+}
